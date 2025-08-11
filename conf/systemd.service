@@ -7,7 +7,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/sftpgo -c __INSTALL_DIR__/sftpgo.json
+ExecStart=__INSTALL_DIR__/sftpgo --config-file __INSTALL_DIR__/sftpgo.json
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline
