@@ -24,10 +24,7 @@ chmod +x $install_dir/sftpgo
 #=================================================
 ynh_script_progression "Updating $app's configuration files..."
 
-ynh_config_add --template="some_config_file" --destination="$install_dir/some_config_file"
-
-chmod 400 "$install_dir/some_config_file"
-chown "$app:$app" "$install_dir/some_config_file"
+ynh_config_add --template="sftpgo.json" --destination="$install_dir/sftpgo.json"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
@@ -38,7 +35,7 @@ ynh_config_add_nginx
 
 ynh_config_add_systemd
 
-yunohost service add "$app" --description="A short description of the app" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Highly configurable SFTP server" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
