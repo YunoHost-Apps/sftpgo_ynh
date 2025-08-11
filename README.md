@@ -20,7 +20,7 @@ Fully featured and highly configurable SFTP server
 
 
 ## Screenshots
-![Screenshot of sftpgo](./doc/screenshots/example.jpg)
+![Screenshot of sftpgo](./doc/screenshots/screenshot.png)
 
 ## 📦 Developer info
 
