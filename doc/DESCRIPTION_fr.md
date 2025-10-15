@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Solution de transfert de fichiers complète et hautement configurable. Protocoles serveur : SFTP, HTTP/S, FTP/S, WebDAV. Backends de stockage : système de fichiers local, système de fichiers local crypté, stockage d'objets S3 (compatible), Google Cloud Storage, Azure Blob Storage, autres serveurs SFTP.
