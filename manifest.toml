@@ -54,6 +54,7 @@ ram.runtime = "50M"
     autoupdate.asset.arm64 = ".*\\_linux_arm64.tar.xz"
 
     [resources.system_user]
+    allow_email = true
 
     [resources.install_dir]
 
