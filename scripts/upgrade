@@ -21,9 +21,9 @@ chmod +x $install_dir/sftpgo
 #=================================================
 # UPDATE A CONFIG FILE
 #=================================================
-ynh_script_progression "Updating $app's configuration files..."
+#ynh_script_progression "Updating $app's configuration files..."
 
-ynh_config_add --template="sftpgo.json" --destination="$install_dir/sftpgo.json"
+#ynh_config_add --template="sftpgo.json" --destination="$install_dir/sftpgo.json"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
