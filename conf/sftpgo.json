@@ -411,13 +411,13 @@
   },
   "smtp": {
     "host": "",
-    "port": 587,
-    "from": "",
-    "user": "",
-    "password": "",
+    "port": 25,
+    "from": "sftpgo@__DOMAIN__",
+    "user": "__APP__",
+    "password": "__MAIL_PWD__",
     "auth_type": 0,
     "encryption": 0,
-    "domain": "",
+    "domain": "__DOMAIN__",
     "templates_path": "templates",
     "debug": 0,
     "oauth2": {
